@@ -1,4 +1,4 @@
-const starWarsApiUrl = 'https://swapi.dev/api/people/'
+const starWarsApiUrl = 'https://swapi.dev/api/people'
 let unorderedList = document.querySelector('#accordion')
 
 
@@ -38,7 +38,7 @@ fetch(starWarsApiUrl)
 						container.classList.toggle('hidden')
 					})
 			
-		})
+		}).catch(err=>console.log(err))
 		
 	
 	})
