@@ -1,4 +1,4 @@
-const starWarsApiUrl = '//swapi.dev/api/people'
+const starWarsApiUrl = 'http://swapi.co/api/people'
 let unorderedList = document.querySelector('#accordion')
 
 
